@@ -151,7 +151,7 @@ def top_stocks_in_sector(nse: NSE, sector_name: str, count: int, trend: str) -> 
 # ---------- Streamlit UI ----------
 st.set_page_config(page_title="NSE Stock Filter (9:20 click)", page_icon="📈", layout="centered")
 
-st.title("📈 NSE Intraday Stock Filter (Click at 9:20)")
+st.title("📈 NSE Intraday Stock Filter (by_swapnil)")
 st.caption("Finds market trend from NIFTY 50, picks leading/lagging sector, and shows top 2–3 stocks from that sector.")
 
 colA, colB = st.columns(2)
